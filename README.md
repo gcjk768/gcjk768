@@ -21,19 +21,19 @@
 
 ```bash
 $ whoami
-james — Mid-level DevOps Engineer @ NCS Pte Ltd
+James Koh — Mid-level DevOps Engineer @ NCS Pte Ltd
 
 $ cat ~/.config/role.env
-DAY_JOB="build CI/CD pipelines & automation — shipped as Bash scripts"
-SOMETIMES="help out on Cloud Infra & IaC (Terraform) — learning, not my day-2-day"
-STUDYING="Master of Technology @ NUS-ISS — NCS Nucleus programme"
-VIBE_CODING="all in — but with CS fundamentals under the hood, not just prompts"
-HOMELAB="RTX 5080 · Ryzen 9800X3D — local-first AI agents after hours"
-HOBBY="photography 📸 (built an AI coach to roast my own photos)"
-EDU="B.CompSci · University of Wollongong"
+DAY_JOB="Design and build CI/CD pipelines and automation, delivered as Bash scripts"
+SOMETIMES="Support Cloud Infrastructure and IaC initiatives with Terraform"
+STUDYING="Master of Technology, NUS-ISS — NCS Nucleus Programme"
+VIBE_CODING="AI-assisted development, grounded in computer science fundamentals"
+HOMELAB="RTX 5080 · Ryzen 9800X3D — local-first AI agents"
+HOBBY="Photography — built an AI-assisted critique tool"
+EDU="BSc Computer Science, University of Wollongong"
 
 $ echo "philosophy"
-"Vibe-code fast, but know exactly what the code does."
+"Automate with intent — understand every line before it ships."
 ```
 
 <!-- ====================== TECH STACK ====================== -->
