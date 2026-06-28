@@ -88,7 +88,7 @@ $ echo "principle"
 
 </div>
 
-<!-- ====================== TROPHIES ====================== -->
+<!-- ====================== TROPHIES (public service down — re-enable when back) ======================
 ## `$ ./trophies.sh`
 
 <div align="center">
@@ -96,6 +96,7 @@ $ echo "principle"
 <img src="https://github-profile-trophy.vercel.app/?username=gcjk768&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&row=1" alt="trophies" />
 
 </div>
+====================================================================== -->
 
 <!-- ====================== SNAKE (pending workflow scope) ======================
 ## `$ ./snake.sh  # eating my contributions`
