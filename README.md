@@ -26,7 +26,7 @@ james — Mid-level DevOps Engineer @ NCS Pte Ltd
         Computer Science grad · University of Wollongong
 
 $ cat ~/.config/focus.yaml
-day_job:   reliable cloud infrastructure, shipped as code (IaC)
+day_job:   reliable DevOps + infrastructure, shipped as bash script & code (IaC)
 learning:  Terraform / IaC · Kubernetes · AWS — turning clicks into commits
 homelab:   RTX 5080 · Ryzen 9800X3D — local-first AI agents after hours
 hobby:     photography 📸 (yes, I built an AI coach to roast my own photos)
