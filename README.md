@@ -1,45 +1,53 @@
 <!-- ====================== HEADER ====================== -->
 <a href="https://github.com/gcjk768">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2496ED,100:6E5494&height=200&section=header&text=James%20Koh&fontSize=52&fontColor=ffffff&desc=Mid-level%20DevOps%20Engineer%20%C2%B7%20Cloud%20Infrastructure%20%C2%B7%20Local-first%20AI&descSize=16&descAlignY=70&animation=fadeIn" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=DevOps%20Engineer%20%C2%B7%20I%20automate%20everything%20in%20Bash&descSize=17&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
 </a>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=I+ship+cloud+infrastructure+as+code;I+automate+all+the+things;I+build+local-first+AI+agents;It+works+on+my+machine+%E2%98%95&font=Fira%20Code&size=22&pause=1200&color=2496ED&center=true&vCenter=true&width=520&height=40" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%24+./run-pipeline.sh;I+build+CI%2FCD+pipelines+in+Bash;I+automate+all+the+things;I+ship+local-first+AI+agents;exit+0+%E2%80%94+it+works+on+my+machine+%E2%98%95&font=Fira%20Code&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=560&height=45" alt="typing" />
 
 <p>
-  <img src="https://img.shields.io/badge/DevOps%20Engineer-%40%20NCS-2496ED?style=flat-square&logo=icloud&logoColor=white" alt="DevOps @ NCS" />
+  <img src="https://img.shields.io/badge/DevOps%20Engineer-%40%20NCS-39D353?style=flat-square&logo=gnubash&logoColor=black" alt="DevOps @ NCS" />
   <img src="https://img.shields.io/badge/AWS%20Certified-SAA--C03-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified" />
   <img src="https://img.shields.io/badge/Based%20in-Singapore-EF3340?style=flat-square&logo=googlemaps&logoColor=white" alt="Singapore" />
-  <img src="https://komarev.com/ghpvc/?username=gcjk768&style=flat-square&color=2EA44F&label=Profile+views" alt="views" />
+  <img src="https://komarev.com/ghpvc/?username=gcjk768&style=flat-square&color=39D353&label=Profile+views" alt="views" />
 </p>
 
 </div>
 
 <!-- ====================== ABOUT ====================== -->
-## ⚡ whoami
+## `$ whoami`
 
 ```bash
 $ whoami
 james — Mid-level DevOps Engineer @ NCS Pte Ltd
-        leading a DevOps & Cloud Infrastructure project
-        Computer Science grad · University of Wollongong
 
-$ cat ~/.config/focus.yaml
-day_job:   reliable DevOps + infrastructure, shipped as bash script & code (IaC)
-learning:  Terraform / IaC · Kubernetes · AWS — turning clicks into commits
-homelab:   RTX 5080 · Ryzen 9800X3D — local-first AI agents after hours
-hobby:     photography 📸 (yes, I built an AI coach to roast my own photos)
+$ cat ~/.config/role.env
+DAY_JOB="build CI/CD pipelines & automation — shipped as Bash scripts"
+SOMETIMES="help out on Cloud Infra & IaC (Terraform) — learning, not my day-2-day"
+STUDYING="Master of Technology @ NUS-ISS — NCS Nucleus programme"
+VIBE_CODING="all in — but with CS fundamentals under the hood, not just prompts"
+HOMELAB="RTX 5080 · Ryzen 9800X3D — local-first AI agents after hours"
+HOBBY="photography 📸 (built an AI coach to roast my own photos)"
+EDU="B.CompSci · University of Wollongong"
+
+$ echo "philosophy"
+"Vibe-code fast, but know exactly what the code does."
 ```
 
 <!-- ====================== TECH STACK ====================== -->
-## 🧰 Tech Stack
+## `$ cat tech-stack.sh`
 
 <div align="center">
 
-**☁️ Cloud &amp; DevOps**
+**🐚 Day-to-Day — Pipelines &amp; Automation**
 
-<img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,gitlab,linux,bash&theme=dark" alt="cloud & devops" />
+<img src="https://skillicons.dev/icons?i=bash,linux,git,githubactions,gitlab,docker&theme=dark" alt="pipelines & automation" />
+
+**☁️ Learning — Cloud &amp; IaC**
+
+<img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes&theme=dark" alt="cloud & iac" />
 
 **💻 Languages**
 
@@ -56,14 +64,16 @@ hobby:     photography 📸 (yes, I built an AI coach to roast my own photos)
 </div>
 
 <!-- ====================== CERTIFICATIONS ====================== -->
-## 📜 Certifications &amp; Leveling Up
+## `$ ./certifications.sh --status`
 
-- ✅ **AWS Solutions Architect Associate (SAA-C03)** — passed 2026 🎉
-- 📚 **Certified Kubernetes Administrator (CKA)** — course completed, exam in progress (pods, RBAC, network policies).
-- 🏗️ **Terraform / IaC** — turning the homelab and cloud into reproducible infrastructure.
+```diff
++ [PASS]  AWS Solutions Architect Associate (SAA-C03) ......... passed 2026 🎉
+! [WIP]   Certified Kubernetes Administrator (CKA) ............ exam in progress
+~ [LEARN] Terraform / IaC .................................... reproducible infra
+```
 
 <!-- ====================== PROJECTS ====================== -->
-## 📌 Featured Projects
+## `$ ls ~/projects`
 
 <table>
   <tr>
@@ -109,20 +119,20 @@ hobby:     photography 📸 (yes, I built an AI coach to roast my own photos)
 </table>
 
 <!-- ====================== STATS ====================== -->
-## 📊 GitHub Stats
+## `$ git log --stat`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcjk768&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="stats" />
-<img height="165" src="https://streak-stats.demolab.com/?user=gcjk768&hide_border=true&theme=tokyonight" alt="streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcjk768&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true&icon_color=39D353&title_color=39D353" alt="stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=gcjk768&hide_border=true&theme=github-dark-green&fire=39D353&currStreakLabel=39D353" alt="streak" />
 
 <br/>
 
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="top langs" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=39D353" alt="top langs" />
 
 </div>
 
 <!-- ====================== FOOTER ====================== -->
-<div align="center"><sub>⚡ <code>terraform apply</code> on the homelab · <code>kubectl get pods</code> on the brain.</sub></div>
+<div align="center"><sub>🐧 <code>$ exit 0</code> — built &amp; shipped from a terminal near you.</sub></div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6E5494,100:2496ED&height=120&section=footer" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1A472A,100:0D1117&height=120&section=footer" alt="footer" />
