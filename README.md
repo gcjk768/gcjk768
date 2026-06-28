@@ -56,6 +56,15 @@ $ echo "principle"
 
 <sub>Previously: Technician · Keppel Shipyard (2017–2020) — pivoted from heavy industry into software & DevOps.</sub>
 
+<!-- ====================== CERTIFICATIONS ====================== -->
+## `$ ./certifications.sh --status`
+
+```diff
++ [CERTIFIED] AWS Solutions Architect Associate (SAA-C03) ...... passed 2026 🎉
+! [WIP]       Certified Kubernetes Administrator (CKA) ......... exam in progress
+~ [STUDYING]  Master of Technology — NUS-ISS .................. NCS Nucleus Programme
+```
+
 <!-- ====================== TECH STACK ====================== -->
 ## `$ cat tech-stack.sh`
 
@@ -79,14 +88,51 @@ $ echo "principle"
 
 </div>
 
-<!-- ====================== CERTIFICATIONS ====================== -->
-## `$ ./certifications.sh --status`
+<!-- ====================== TROPHIES ====================== -->
+## `$ ./trophies.sh`
 
-```diff
-+ [CERTIFIED] AWS Solutions Architect Associate (SAA-C03) ...... passed 2026 🎉
-! [WIP]       Certified Kubernetes Administrator (CKA) ......... exam in progress
-~ [STUDYING]  Master of Technology — NUS-ISS .................. NCS Nucleus Programme
-```
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=gcjk768&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&row=1" alt="trophies" />
+
+</div>
+
+<!-- ====================== SNAKE (pending workflow scope) ======================
+## `$ ./snake.sh  # eating my contributions`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gcjk768/gcjk768/output/ocean-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gcjk768/gcjk768/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/gcjk768/gcjk768/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+====================================================================== -->
+
+<!-- ====================== ACTIVITY GRAPH ====================== -->
+## `$ ./activity-graph.sh`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gcjk768&bg_color=0D1117&color=39D353&line=39D353&point=FFFFFF&area=true&area_color=1A472A&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" width="98%" />
+
+</div>
+
+<!-- ====================== STATS ====================== -->
+## `$ git log --stat`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcjk768&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true&icon_color=39D353&title_color=39D353" alt="stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=gcjk768&hide_border=true&theme=github-dark-green&fire=39D353&currStreakLabel=39D353" alt="streak" />
+
+<br/>
+
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=39D353" alt="top langs" />
+
+</div>
 
 <!-- ====================== PROJECTS ====================== -->
 ## `$ ls ~/projects`
@@ -133,20 +179,6 @@ $ echo "principle"
     <td width="50%" valign="top"></td>
   </tr>
 </table>
-
-<!-- ====================== STATS ====================== -->
-## `$ git log --stat`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcjk768&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true&icon_color=39D353&title_color=39D353" alt="stats" />
-<img height="165" src="https://streak-stats.demolab.com/?user=gcjk768&hide_border=true&theme=github-dark-green&fire=39D353&currStreakLabel=39D353" alt="streak" />
-
-<br/>
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=39D353" alt="top langs" />
-
-</div>
 
 <!-- ====================== CONNECT ====================== -->
 ## `$ ./connect.sh`
