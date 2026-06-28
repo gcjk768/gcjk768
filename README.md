@@ -1,6 +1,6 @@
 <!-- ====================== HEADER ====================== -->
 <a href="https://github.com/gcjk768">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=DevSecOps%20Engineer%20%40%20NCS%20%C2%B7%20Pipelines%20%C2%B7%20Cloud%20%C2%B7%20Kubernetes%20%C2%B7%20AI&descSize=16&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=DevSecOps%20Engineer%20%C2%B7%20Pipelines%20%C2%B7%20Cloud%20%C2%B7%20Kubernetes%20%C2%B7%20AI&descSize=16&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
 </a>
 
 <div align="center">
@@ -8,7 +8,7 @@
 <img src="https://readme-typing-svg.demolab.com/?lines=%24+.%2Fdeploy.sh+--env+prod;I+design+CI%2FCD+pipelines+%26+cloud+infra;I+administer+Kubernetes+clusters;I+build+AI+agents+that+reduce+toil;exit+0+%E2%80%94+it+works+on+my+machine+%E2%98%95&font=Fira%20Code&size=21&pause=1200&color=39D353&center=true&vCenter=true&width=580&height=45" alt="typing" />
 
 <p>
-  <img src="https://img.shields.io/badge/DevSecOps%20Engineer-%40%20NCS%20Group-39D353?style=flat-square&logo=gnubash&logoColor=black" alt="DevSecOps @ NCS" />
+  <img src="https://img.shields.io/badge/DevSecOps%20Engineer-39D353?style=flat-square&logo=gnubash&logoColor=black" alt="DevSecOps Engineer" />
   <img src="https://img.shields.io/badge/AWS%20Certified-SAA--C03-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified" />
   <img src="https://img.shields.io/badge/CKA-In%20Progress-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA in progress" />
   <img src="https://img.shields.io/badge/Based%20in-Singapore-EF3340?style=flat-square&logo=googlemaps&logoColor=white" alt="Singapore" />
