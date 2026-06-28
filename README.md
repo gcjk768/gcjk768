@@ -1,15 +1,16 @@
 <!-- ====================== HEADER ====================== -->
 <a href="https://github.com/gcjk768">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=DevOps%20Engineer%20%C2%B7%20I%20automate%20everything%20in%20Bash&descSize=17&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=DevSecOps%20Engineer%20%40%20NCS%20%C2%B7%20Pipelines%20%C2%B7%20Cloud%20%C2%B7%20Kubernetes%20%C2%B7%20AI&descSize=16&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
 </a>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=%24+./run-pipeline.sh;I+build+CI%2FCD+pipelines+in+Bash;I+automate+all+the+things;I+ship+local-first+AI+agents;exit+0+%E2%80%94+it+works+on+my+machine+%E2%98%95&font=Fira%20Code&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=560&height=45" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com/?lines=%24+.%2Fdeploy.sh+--env+prod;I+design+CI%2FCD+pipelines+%26+cloud+infra;I+administer+Kubernetes+clusters;I+build+AI+agents+that+reduce+toil;exit+0+%E2%80%94+it+works+on+my+machine+%E2%98%95&font=Fira%20Code&size=21&pause=1200&color=39D353&center=true&vCenter=true&width=580&height=45" alt="typing" />
 
 <p>
-  <img src="https://img.shields.io/badge/DevOps%20Engineer-%40%20NCS-39D353?style=flat-square&logo=gnubash&logoColor=black" alt="DevOps @ NCS" />
+  <img src="https://img.shields.io/badge/DevSecOps%20Engineer-%40%20NCS%20Group-39D353?style=flat-square&logo=gnubash&logoColor=black" alt="DevSecOps @ NCS" />
   <img src="https://img.shields.io/badge/AWS%20Certified-SAA--C03-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified" />
+  <img src="https://img.shields.io/badge/CKA-In%20Progress-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA in progress" />
   <img src="https://img.shields.io/badge/Based%20in-Singapore-EF3340?style=flat-square&logo=googlemaps&logoColor=white" alt="Singapore" />
   <img src="https://komarev.com/ghpvc/?username=gcjk768&style=flat-square&color=39D353&label=Profile+views" alt="views" />
 </p>
@@ -21,37 +22,52 @@
 
 ```bash
 $ whoami
-James Koh — Mid-level DevOps Engineer @ NCS Pte Ltd
+James Koh — DevSecOps Engineer @ NCS Group · Singapore
 
-$ cat ~/.config/role.env
-DAY_JOB="Design and build CI/CD pipelines and automation, delivered as Bash scripts"
-SOMETIMES="Support Cloud Infrastructure and IaC initiatives with Terraform"
-STUDYING="Master of Technology, NUS-ISS — NCS Nucleus Programme"
-VIBE_CODING="AI-assisted development, grounded in computer science fundamentals"
-HOMELAB="RTX 5080 · Ryzen 9800X3D — local-first AI agents"
-HOBBY="Photography — built an AI-assisted critique tool"
-EDU="BSc Computer Science, University of Wollongong"
+$ cat about.md
+"I build and maintain the infrastructure that lets engineering
+ teams ship faster and sleep better at night."
 
-$ echo "philosophy"
+ROLE       = CI/CD pipeline design · AWS cloud infra · Kubernetes admin · Terraform IaC
+OBSERV     = Elasticsearch-driven monitoring & operational visibility
+AI_DEVOPS  = integrate AI tooling into engineering workflows to reduce toil
+STUDYING   = Master of Technology, NUS-ISS — NCS Nucleus Programme
+EDUCATION  = BSc Computer Science, University of Wollongong (SIM)
+APPROACH   = "vibe coding, but with guardrails" — AI-assisted, CS-grounded
+
+$ echo "principle"
 "Automate with intent — understand every line before it ships."
 ```
+
+<!-- ====================== EXPERIENCE ====================== -->
+## `$ cat experience.log`
+
+```diff
+@ DevSecOps Engineer · NCS Group — Full-time · Singapore (Hybrid)
+@ Apr 2024 → Present
+
++ Design and maintain CI/CD pipelines for enterprise clients in secure, regulated environments
++ Provision and manage AWS infrastructure with Terraform & CloudFormation — repeatable, auditable deploys
++ Administer Kubernetes clusters — upgrades, troubleshooting, DNS/networking and workload management
++ Build an Elasticsearch-based observability stack for monitoring and operational visibility
++ Develop internal Node.js/React tooling for pipeline health with AI-assisted failure analysis
++ Integrate AI tooling into engineering workflows within on-prem, constrained environments
+```
+
+<sub>Previously: Technician · Keppel Shipyard (2017–2020) — pivoted from heavy industry into software & DevOps.</sub>
 
 <!-- ====================== TECH STACK ====================== -->
 ## `$ cat tech-stack.sh`
 
 <div align="center">
 
-**🐚 Day-to-Day — Pipelines &amp; Automation**
+**⚙️ CI/CD, Cloud &amp; Platform**
 
-<img src="https://skillicons.dev/icons?i=bash,linux,git,githubactions,gitlab,docker&theme=dark" alt="pipelines & automation" />
+<img src="https://skillicons.dev/icons?i=gitlab,githubactions,aws,terraform,kubernetes,docker,linux,bash&theme=dark" alt="ci/cd cloud platform" />
 
-**☁️ Learning — Cloud &amp; IaC**
+**📊 Observability &amp; Languages**
 
-<img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes&theme=dark" alt="cloud & iac" />
-
-**💻 Languages**
-
-<img src="https://skillicons.dev/icons?i=js,nodejs,react,go,cs,unity&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=elasticsearch,grafana,python,nodejs,js,react,go,cs&theme=dark" alt="observability & languages" />
 
 **🤖 AI / Agents**
 
@@ -67,9 +83,9 @@ $ echo "philosophy"
 ## `$ ./certifications.sh --status`
 
 ```diff
-+ [PASS]  AWS Solutions Architect Associate (SAA-C03) ......... passed 2026 🎉
-! [WIP]   Certified Kubernetes Administrator (CKA) ............ exam in progress
-~ [LEARN] Terraform / IaC .................................... reproducible infra
++ [CERTIFIED] AWS Solutions Architect Associate (SAA-C03) ...... passed 2026 🎉
+! [WIP]       Certified Kubernetes Administrator (CKA) ......... exam in progress
+~ [STUDYING]  Master of Technology — NUS-ISS .................. NCS Nucleus Programme
 ```
 
 <!-- ====================== PROJECTS ====================== -->
@@ -79,16 +95,16 @@ $ echo "philosophy"
   <tr>
     <td width="50%" valign="top">
       <h3>📸 <a href="https://github.com/gcjk768/PHOTOGRAPHY_SENSEI">PHOTOGRAPHY_SENSEI</a></h3>
-      <p>Agentic AI photography coach — Telegram-driven Claude Code subagents critique your photos, cite master photographers, and track your growth in an Obsidian vault.</p>
+      <p>Agentic AI photography coach — Telegram-driven Claude Code subagents critique your photos, cite master photographers, and track your growth in an Obsidian vault. Every claim must point at evidence (a region of the frame or EXIF field) — no evidence, no comment.</p>
       <img src="https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Agentic%20AI-6E5494?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Multi--Agent-6E5494?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
     </td>
     <td width="50%" valign="top">
       <h3>⚽ <a href="https://github.com/gcjk768/FIFAWC2026_Analysis">FIFAWC2026_Analysis</a></h3>
-      <p>Local-first World Cup 2026 AI assistant — Ollama/Qwen match predictions, live scores and auto-news through a bilingual Telegram bot.</p>
+      <p>Local-first World Cup 2026 AI assistant — hybrid LLM (Claude for reasoning, local Ollama for 中文 translation) over a Poisson xG model. Bilingual predictions, live scores and auto-news to Telegram, Obsidian and Google Calendar.</p>
+      <img src="https://img.shields.io/badge/-Node.js-5FA04E?style=flat-square" />
       <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
-      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square" />
       <img src="https://img.shields.io/badge/-Local--first-2EA44F?style=flat-square" />
     </td>
   </tr>
@@ -129,6 +145,16 @@ $ echo "philosophy"
 <br/>
 
 <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=39D353" alt="top langs" />
+
+</div>
+
+<!-- ====================== CONNECT ====================== -->
+## `$ ./connect.sh`
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/kohguanchinjames/"><img src="https://img.shields.io/badge/LinkedIn-James%20Koh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/gcjk768"><img src="https://img.shields.io/badge/GitHub-gcjk768-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 </div>
 
