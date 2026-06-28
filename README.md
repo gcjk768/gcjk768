@@ -22,7 +22,7 @@
 
 ```bash
 $ whoami
-James Koh — DevSecOps Engineer @ NCS Group · Singapore
+James Koh — DevSecOps Engineer · Singapore
 
 $ cat about.md
 "I build and maintain the infrastructure that lets engineering
@@ -31,8 +31,7 @@ $ cat about.md
 ROLE       = CI/CD pipeline design · AWS cloud infra · Kubernetes admin · Terraform IaC
 OBSERV     = Elasticsearch-driven monitoring & operational visibility
 AI_DEVOPS  = integrate AI tooling into engineering workflows to reduce toil
-STUDYING   = Master of Technology, NUS-ISS — NCS Nucleus Programme
-EDUCATION  = BSc Computer Science, University of Wollongong (SIM)
+STUDYING   = Master of Technology, NUS-ISS
 APPROACH   = "vibe coding, but with guardrails" — AI-assisted, CS-grounded
 
 $ echo "principle"
