@@ -39,32 +39,6 @@ $ echo "principle"
 "Automate with intent — understand every line before it ships."
 ```
 
-<!-- ====================== EXPERIENCE ====================== -->
-## `$ cat experience.log`
-
-```diff
-@ DevSecOps Engineer · NCS Group — Full-time · Singapore (Hybrid)
-@ Apr 2024 → Present
-
-+ Design and maintain CI/CD pipelines for enterprise clients in secure, regulated environments
-+ Provision and manage AWS infrastructure with Terraform & CloudFormation — repeatable, auditable deploys
-+ Administer Kubernetes clusters — upgrades, troubleshooting, DNS/networking and workload management
-+ Build an Elasticsearch-based observability stack for monitoring and operational visibility
-+ Develop internal Node.js/React tooling for pipeline health with AI-assisted failure analysis
-+ Integrate AI tooling into engineering workflows within on-prem, constrained environments
-```
-
-<sub>Previously: Technician · Keppel Shipyard (2017–2020) — pivoted from heavy industry into software & DevOps.</sub>
-
-<!-- ====================== CERTIFICATIONS ====================== -->
-## `$ ./certifications.sh --status`
-
-```diff
-+ [CERTIFIED] AWS Solutions Architect Associate (SAA-C03) ...... passed 2026 🎉
-! [WIP]       Certified Kubernetes Administrator (CKA) ......... exam in progress
-~ [STUDYING]  Master of Technology — NUS-ISS .................. NCS Nucleus Programme
-```
-
 <!-- ====================== TECH STACK ====================== -->
 ## `$ cat tech-stack.sh`
 
@@ -87,16 +61,6 @@ $ echo "principle"
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
 
 </div>
-
-<!-- ====================== TROPHIES (public service down — re-enable when back) ======================
-## `$ ./trophies.sh`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=gcjk768&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&row=1" alt="trophies" />
-
-</div>
-====================================================================== -->
 
 <!-- ====================== SNAKE (pending workflow scope) ======================
 ## `$ ./snake.sh  # eating my contributions`
