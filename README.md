@@ -104,12 +104,22 @@ $ echo "principle"
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🧭 <a href="https://github.com/gcjk768/job-hunter">job-hunter</a></h3>
+      <p>Self-hosted job-search agent running 24/7 in Docker on my home NAS — sweeps job boards and ATS career pages, has an LLM judge each new posting's fit, drafts an ATS-plain tailored resume + cover letter, and alerts a Telegram topic. Human-in-the-loop: it never applies.</p>
+      <img src="https://img.shields.io/badge/-Docker%20%C2%B7%20NAS-2496ED?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Ollama%20Cloud-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
       <h3>📸 <a href="https://github.com/gcjk768/PHOTOGRAPHY_SENSEI">PHOTOGRAPHY_SENSEI</a></h3>
       <p>Agentic AI photography coach — Telegram-driven Claude Code subagents critique your photos, cite master photographers, and track your growth in an Obsidian vault. Every claim must point at evidence (a region of the frame or EXIF field) — no evidence, no comment.</p>
       <img src="https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square" />
       <img src="https://img.shields.io/badge/-Multi--Agent-6E5494?style=flat-square" />
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>⚽ <a href="https://github.com/gcjk768/FIFAWC2026_Analysis">FIFAWC2026_Analysis</a></h3>
       <p>Local-first World Cup 2026 AI assistant — hybrid LLM (Claude for reasoning, local Ollama for 中文 translation) over a Poisson xG model. Bilingual predictions, live scores and auto-news to Telegram, Obsidian and Google Calendar.</p>
@@ -117,8 +127,6 @@ $ echo "principle"
       <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/-Local--first-2EA44F?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>📰 <a href="https://github.com/gcjk768/AI_Tech_News">AI_Tech_News</a></h3>
       <p>Local-first AI/tech news bot — filters 50+ RSS feeds with a local model, archives to Obsidian, and posts a daily Claude digest to Telegram.</p>
@@ -126,21 +134,20 @@ $ echo "principle"
       <img src="https://img.shields.io/badge/-RSS-FFA500?style=flat-square" />
       <img src="https://img.shields.io/badge/-Obsidian-7C3AED?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🍻 <a href="https://github.com/gcjk768/FreshBeer-FYP-23">FreshBeer-FYP-23</a></h3>
       <p>React Native beer-discovery app integrating Binary Beer SmartKeg tracking (SIM-UOW Final Year Project 2023).</p>
       <img src="https://img.shields.io/badge/-React%20Native-61DAFB?style=flat-square" />
       <img src="https://img.shields.io/badge/-Node.js-5FA04E?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎮 <a href="https://github.com/gcjk768/FPS-Game-Unity-Engine">FPS-Game-Unity-Engine</a></h3>
       <p>First-person shooter prototype built in Unity with C# — player movement, shooting mechanics and enemy AI.</p>
       <img src="https://img.shields.io/badge/-Unity-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/-C%23-512BD4?style=flat-square" />
     </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
