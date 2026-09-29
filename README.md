@@ -123,7 +123,7 @@ $ echo "principle"
       <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square" />
     </td>
     <td width="50%" valign="top">
-      <h3>📰 <a href="https://github.com/gcjk768/AI_Tech_News">AI_Tech_News</a></h3>
+      <h3>📰 <a href="https://github.com/gcjk768/ai-tech-news-bot">ai-tech-news-bot</a></h3>
       <p>Local-first AI/tech news bot. It filters 50+ RSS feeds with a local model, archives to Obsidian, and posts a daily Claude digest to Telegram.</p>
       <img src="https://img.shields.io/badge/-MCP-1E1E1E?style=flat-square" />
       <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
@@ -135,8 +135,8 @@ $ echo "principle"
 <details>
 <summary><b>More projects</b></summary>
 
-- 📸 [PHOTOGRAPHY_SENSEI](https://github.com/gcjk768/PHOTOGRAPHY_SENSEI): an agentic photography coach. Telegram-driven Claude Code subagents critique photos, and every claim must point at evidence in the frame or EXIF.
-- ⚽ [FIFAWC2026_Analysis](https://github.com/gcjk768/FIFAWC2026_Analysis): a hybrid-LLM World Cup assistant built on a Poisson xG model, with bilingual predictions sent to Telegram, Obsidian and Google Calendar.
+- 📸 [photography-sensei](https://github.com/gcjk768/photography-sensei): an agentic photography coach. Telegram-driven Claude Code subagents critique photos, and every claim must point at evidence in the frame or EXIF.
+- ⚽ [wc2026-match-predictor](https://github.com/gcjk768/wc2026-match-predictor): a hybrid-LLM World Cup assistant built on a Poisson xG model, with bilingual predictions sent to Telegram, Obsidian and Google Calendar.
 - 🍻 [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23): a React Native + Node.js/MongoDB app with SmartKeg tracking. I led a 4-person team, and the pilot reached 500+ downloads (SIM-UOW FYP 2023).
 - 🎮 [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine): a Unity/C# first-person shooter prototype.
 
