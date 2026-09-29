@@ -79,35 +79,55 @@ $ echo "principle"
 <!-- ====================== PROJECTS ====================== -->
 ## `$ ls ~/projects`
 
+### ⭐ Flagship — [CareRoute AI](https://github.com/gcjk768/careroute-ai)
+
+**Multi-agent AI triage on AWS, shipped through a DevSecOps / MLSecOps pipeline.** A patient describes their symptoms in plain language. CareRoute returns an urgency level (P1–P5), a care tier, a real nearby clinic and a cited explanation. Anything urgent or uncertain goes to a human clinician. Built as a team at NUS-ISS; I wrote about 80% of the app commits and all of the infrastructure-as-code.
+
+<a href="https://github.com/gcjk768/careroute-ai"><img src="https://github.com/gcjk768/careroute-ai/raw/main/docs/architecture.png" alt="CareRoute AI AWS architecture" width="100%" /></a>
+
+| | |
+|---|---|
+| **Runtime** | ECS Fargate Spot behind an ALB, FastAPI SSE backend + Next.js, Prometheus/Grafana, drift monitor on EventBridge |
+| **AI** | Orchestrated agents (intake → RandomForest+SHAP classifier → safety override → routing → HITL → reflection), with a rules fallback under every LLM step |
+| **DevSecOps** | GitLab CI with 73 app + 12 infra jobs: SAST, secrets, SCA, LLM red-team, fairness gate, model scanning, OWASP ZAP DAST, OIDC to AWS with no static keys |
+| **IaC** | 16 Terraform modules composed with Terragrunt |
+
+### Self-hosted AI & automation (run 24/7 on my home NAS / workstation)
+
+Every repo has a draw.io architecture diagram and a README that explains the design trade-offs.
+
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🧭 <a href="https://github.com/gcjk768/job-hunter">job-hunter</a></h3>
-      <p>Self-hosted job-search agent running 24/7 in Docker on my home NAS. It sweeps job boards and ATS career pages, has an LLM judge each new posting's fit, drafts a tailored resume and cover letter, and sends a Telegram alert. A human decides every time: it never applies.</p>
-      <img src="https://img.shields.io/badge/-Docker%20%C2%B7%20NAS-2496ED?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Ollama%20Cloud-000000?style=flat-square" />
+      <p>Self-hosted job-search agent running 24/7 on my home NAS. Sweeps MyCareersFuture plus 40+ company ATS boards (Greenhouse, Ashby, Lever, Workday), dedups against a seen-set, has an LLM score each new posting, and drafts a tailored resume + cover letter. <b>Human-in-the-loop by design: it never applies.</b></p>
+      <p><sub>LLM spend capped per cycle · Docker · 14 behaviour checks · <a href="https://github.com/gcjk768/job-hunter#readme">architecture →</a></sub></p>
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square" />
     </td>
     <td width="50%" valign="top">
-      <h3>📸 <a href="https://github.com/gcjk768/photography-sensei">photography-sensei</a></h3>
-      <p>Agentic AI photography coach. Telegram-driven Claude Code subagents critique your photos, cite master photographers, and track your growth in an Obsidian vault. Every claim must point at evidence (a region of the frame or an EXIF field): no evidence, no comment.</p>
-      <img src="https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Multi--Agent-6E5494?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
+      <h3>💓 <a href="https://github.com/gcjk768/python-garminconnect">python-garminconnect</a></h3>
+      <p>Garmin health monitor for me and my dad: polls Garmin every 15 min into SQLite, detects resting heart-rate episodes, explains them with Claude/Ollama (rules fallback when neither is available), and sends Telegram alerts, medicine reminders and a monthly PDF for the doctor.</p>
+      <p><sub><b>244 tests passing</b> · ruff clean · nightly DB backup · <a href="https://github.com/gcjk768/python-garminconnect#readme">architecture →</a></sub></p>
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
+      <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Claude-D97757?style=flat-square" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚗 <a href="https://github.com/gcjk768/sg-car-market-tracker">sg-car-market-tracker</a></h3>
-      <p>Daily Singapore car-market pipeline. It scrapes COE results, used listings (Sgcarmart, Carro, Motorist) and EV price lists with Playwright, filters them against your criteria, runs a total-cost-of-ownership engine, and sends a Telegram report.</p>
+      <h3>🍳 <a href="https://github.com/gcjk768/sg-recipe-bot">sg-recipe-bot</a></h3>
+      <p>Daily recipe bot running <code>claude -p</code> in Docker on a Synology NAS. Every recipe must pass hard validation (time/ingredient caps, a live HTTPS source verified with a browser TLS fingerprint, no repeats in 90 days) or it is dropped, never patched.</p>
+      <p><sub><b>378 tests passing</b> · no-double-post retries · <a href="https://github.com/gcjk768/sg-recipe-bot#readme">architecture →</a></sub></p>
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Claude-D97757?style=flat-square" />
       <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square" />
     </td>
     <td width="50%" valign="top">
       <h3>🍽️ <a href="https://github.com/gcjk768/sg-food-hunt">sg-food-hunt</a></h3>
-      <p>Staged data pipeline for Singapore dining venues. It collects, dedups and scores venues from several sources, adds MRT and review analysis, and publishes ranked lists and diff reports to an Obsidian vault. Plain-file storage, NAS-friendly.</p>
+      <p>Weekly data pipeline for Singapore dining venues: robots.txt-aware fetch from blogs, Reddit and gov data, cross-source entity dedup, MRT geo-enrichment, review analysis, and scoring for 15 occasions. Publishes to Obsidian and a Telegram diff.</p>
+      <p><sub><b>156 tests</b> · mypy strict · ruff · <a href="https://github.com/gcjk768/sg-food-hunt#readme">architecture →</a></sub></p>
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
       <img src="https://img.shields.io/badge/-Data%20Pipeline-6E5494?style=flat-square" />
       <img src="https://img.shields.io/badge/-Obsidian-7C3AED?style=flat-square" />
@@ -115,28 +135,47 @@ $ echo "principle"
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🍳 <a href="https://github.com/gcjk768/sg-recipe-bot">sg-recipe-bot</a></h3>
-      <p>Scheduled LLM bot on a NAS. Each day it finds one recipe and checks it against strict rules: time and cost caps, a live source URL, and no repeats. A recipe that fails is dropped, never patched. The rest are posted to Telegram.</p>
-      <img src="https://img.shields.io/badge/-Claude%20API-D97757?style=flat-square" />
+      <h3>🚗 <a href="https://github.com/gcjk768/sg-car-market-tracker">sg-car-market-tracker</a></h3>
+      <p>Daily Singapore car-market tracker: COE results, used listings, EV and pump prices, and LTA registrations, fed into a total-cost-of-ownership engine. It posts to Telegram only when something changed, and falls back to an LLM parser (capped at 20 calls/run) when page layouts drift.</p>
+      <p><sub><b>100 tests passing</b> · polite crawl-delay · <a href="https://github.com/gcjk768/sg-car-market-tracker#readme">architecture →</a></sub></p>
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square" />
+      <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square" />
     </td>
     <td width="50%" valign="top">
       <h3>📰 <a href="https://github.com/gcjk768/ai-tech-news-bot">ai-tech-news-bot</a></h3>
-      <p>Local-first AI/tech news bot. It filters 50+ RSS feeds with a local model, archives to Obsidian, and posts a daily Claude digest to Telegram.</p>
-      <img src="https://img.shields.io/badge/-MCP-1E1E1E?style=flat-square" />
+      <p>Local-first news bot: polls 61 feeds, triages with a local Qwen model on Ollama and posts a daily Claude digest. Tapping "apply" runs Claude headless in a throwaway git worktree, and nothing is pushed without a second approval.</p>
+      <p><sub><b>36 tests passing</b> · rate-limited alerts · <a href="https://github.com/gcjk768/ai-tech-news-bot#readme">architecture →</a></sub></p>
+      <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square" />
       <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Obsidian-7C3AED?style=flat-square" />
+      <img src="https://img.shields.io/badge/-MCP-1E1E1E?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📸 <a href="https://github.com/gcjk768/photography-sensei">photography-sensei</a></h3>
+      <p>Agentic photography coach: a Claude Code "head coach" routes each photo to 19 specialist subagents, runs a reflection pass, and logs growth to an Obsidian vault. Every critique must cite evidence (a frame region or an EXIF field).</p>
+      <p><sub>eval harness · multi-agent orchestration · <a href="https://github.com/gcjk768/photography-sensei#readme">architecture →</a></sub></p>
+      <img src="https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Multi--Agent-6E5494?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚽ <a href="https://github.com/gcjk768/wc2026-match-predictor">wc2026-match-predictor</a></h3>
+      <p>World Cup 2026 assistant: a Poisson xG model anchors the predictions, and an LLM layer (Claude or Ollama Qwen) explains them. Live scores come from four sources with failover. Bilingual Telegram bot.</p>
+      <p><sub>5-process Node app · atomic state writes · <a href="https://github.com/gcjk768/wc2026-match-predictor#readme">architecture →</a></sub></p>
+      <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
     </td>
   </tr>
 </table>
 
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>Earlier work (2023)</b></summary>
 
-- ⚽ [wc2026-match-predictor](https://github.com/gcjk768/wc2026-match-predictor): a hybrid-LLM World Cup assistant built on a Poisson xG model, with bilingual predictions sent to Telegram, Obsidian and Google Calendar.
-- 🍻 [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23): a React Native + Node.js/MongoDB app with SmartKeg tracking. I led a 4-person team, and the pilot reached 500+ downloads (SIM-UOW FYP 2023).
-- 🎮 [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine): a Unity/C# first-person shooter prototype.
+- 🍻 [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23): a React Native + Express/MongoDB beer-discovery app that ingests Binary Beer SmartKeg data. I led a 4-person team (SIM-UOW FYP 2023).
+- 🎮 [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine): a Unity/C# FPS prototype with raycast hitscan weapons, physics projectiles and respawning targets.
 
 </details>
 
