@@ -82,19 +82,18 @@ $ echo "principle"
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔐 <a href="https://github.com/gcjk768/llmapp09">llmapp09 · LLMSecOps pipeline</a></h3>
-      <p>Multi-model LLM API + web frontend, containerised and deployed to Kubernetes behind an end-to-end GitHub Actions pipeline: lint, unit tests, Trivy scanning, Promptfoo prompt evals, DeepEval LLM-as-judge, and image publishing. (NUS-ISS DOAIS)</p>
-      <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square" />
-      <img src="https://img.shields.io/badge/-Trivy-1904DA?style=flat-square" />
-      <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square" />
-    </td>
-    <td width="50%" valign="top">
       <h3>🧭 <a href="https://github.com/gcjk768/job-hunter">job-hunter</a></h3>
       <p>Self-hosted job-search agent running 24/7 in Docker on my home NAS. It sweeps job boards and ATS career pages, has an LLM judge each new posting's fit, drafts a tailored resume and cover letter, and sends a Telegram alert. A human decides every time: it never applies.</p>
       <img src="https://img.shields.io/badge/-Docker%20%C2%B7%20NAS-2496ED?style=flat-square" />
       <img src="https://img.shields.io/badge/-Ollama%20Cloud-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>📸 <a href="https://github.com/gcjk768/photography-sensei">photography-sensei</a></h3>
+      <p>Agentic AI photography coach. Telegram-driven Claude Code subagents critique your photos, cite master photographers, and track your growth in an Obsidian vault. Every claim must point at evidence (a region of the frame or an EXIF field): no evidence, no comment.</p>
+      <img src="https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square" />
+      <img src="https://img.shields.io/badge/-Multi--Agent-6E5494?style=flat-square" />
       <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square" />
     </td>
   </tr>
@@ -135,7 +134,6 @@ $ echo "principle"
 <details>
 <summary><b>More projects</b></summary>
 
-- 📸 [photography-sensei](https://github.com/gcjk768/photography-sensei): an agentic photography coach. Telegram-driven Claude Code subagents critique photos, and every claim must point at evidence in the frame or EXIF.
 - ⚽ [wc2026-match-predictor](https://github.com/gcjk768/wc2026-match-predictor): a hybrid-LLM World Cup assistant built on a Poisson xG model, with bilingual predictions sent to Telegram, Obsidian and Google Calendar.
 - 🍻 [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23): a React Native + Node.js/MongoDB app with SmartKeg tracking. I led a 4-person team, and the pilot reached 500+ downloads (SIM-UOW FYP 2023).
 - 🎮 [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine): a Unity/C# first-person shooter prototype.
