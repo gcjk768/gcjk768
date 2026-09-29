@@ -1,6 +1,6 @@
 <!-- ====================== HEADER ====================== -->
 <a href="https://github.com/gcjk768">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=Platform%20%26%20DevOps%20Engineer%20%C2%B7%20Golden%20Paths%20%C2%B7%20Kubernetes%20%C2%B7%20DevSecOps%20%C2%B7%20AI&descSize=16&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A472A&height=210&section=header&text=~%2Fjames%20%E2%9D%AF%20whoami&fontSize=46&fontColor=39D353&desc=Platform%20Engineering%20%C2%B7%20DevOps%20%C2%B7%20Kubernetes%20%C2%B7%20DevSecOps%20%C2%B7%20AI&descSize=16&descAlignY=72&animation=fadeIn&fontAlignY=42" alt="header" />
 </a>
 
 <div align="center">
@@ -142,26 +142,12 @@ $ echo "principle"
 
 </details>
 
-<!-- ====================== ACTIVITY GRAPH ====================== -->
-## `$ ./activity-graph.sh`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gcjk768&bg_color=0D1117&color=39D353&line=39D353&point=FFFFFF&area=true&area_color=1A472A&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" width="98%" />
-
-</div>
-
 <!-- ====================== STATS ====================== -->
 ## `$ git log --stat`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcjk768&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true&icon_color=39D353&title_color=39D353" alt="stats" />
 <img height="165" src="https://streak-stats.demolab.com/?user=gcjk768&hide_border=true&theme=github-dark-green&fire=39D353&currStreakLabel=39D353" alt="streak" />
-
-<br/>
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcjk768&layout=compact&hide_border=true&theme=github_dark&langs_count=8&title_color=39D353" alt="top langs" />
 
 </div>
 
