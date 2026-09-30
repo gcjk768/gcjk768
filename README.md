@@ -36,6 +36,8 @@ AWS · Kubernetes (EKS) · Terraform / Terragrunt · GitLab CI · Docker · MLfl
 - [photography-sensei](https://github.com/gcjk768/photography-sensei): multi-agent photo critique with Claude Code subagents
 - [sg-recipe-bot](https://github.com/gcjk768/sg-recipe-bot) · [sg-food-hunt](https://github.com/gcjk768/sg-food-hunt) · [sg-car-market-tracker](https://github.com/gcjk768/sg-car-market-tracker): scheduled data pipelines on a home NAS
 - [wc2026-match-predictor](https://github.com/gcjk768/wc2026-match-predictor): a Poisson xG model with LLM explanations
+- [Workout-Rotation](https://github.com/gcjk768/Workout-Rotation): a private Telegram gym coach on my NAS. Claude writes the weekly plans, every plan passes a shoulder-injury check, and Garmin recovery data shapes the day
+- [Miles-Chase](https://github.com/gcjk768/Miles-Chase): a KrisFlyer miles tracker. Claude writes daily fare and monthly coach reports to a private Telegram channel
 - 2023: [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23) (led a 4-person final-year project) · [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine)
 
 </details>
