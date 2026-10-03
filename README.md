@@ -39,7 +39,7 @@ AWS · Kubernetes (EKS) · Terraform / Terragrunt · GitLab CI · Docker · MLfl
 - [wc2026-match-predictor](https://github.com/gcjk768/wc2026-match-predictor): a Poisson xG model with LLM explanations
 - [Workout-Rotation](https://github.com/gcjk768/Workout-Rotation): a private Telegram gym coach on my NAS. Claude writes the weekly plans, every plan passes a shoulder-injury check, and Garmin recovery data shapes the day
 - [Miles-Chase](https://github.com/gcjk768/Miles-Chase): a KrisFlyer miles tracker. Claude writes daily fare and monthly coach reports to a private Telegram channel
-- [Coding-and-Agentic-Engineering](https://github.com/gcjk768/Coding-and-Agentic-Engineering) (Burden of Proof): an agent that makes every Semgrep and Dependency-Check finding prove itself with file and line evidence before anyone triages it
+- [Burden-of-Proof](https://github.com/gcjk768/Burden-of-Proof): an agent that makes every Semgrep and Dependency-Check finding prove itself with file and line evidence before anyone triages it
 - [SG-Property-Hunter](https://github.com/gcjk768/SG-Property-Hunter): watches the Singapore property market, with all money maths in code and Claude only writing the words
 - [Huat-Bot](https://github.com/gcjk768/Huat-Bot) · [Watchbot-Hunter](https://github.com/gcjk768/Watchbot-Hunter) · [x100bot](https://github.com/gcjk768/x100bot): Telegram bots on the NAS for TOTO results, the Singapore luxury watch market and Fujifilm X100VI lessons
 - 2023: [FreshBeer-FYP-23](https://github.com/gcjk768/FreshBeer-FYP-23) (led a 4-person final-year project) · [FPS-Game-Unity-Engine](https://github.com/gcjk768/FPS-Game-Unity-Engine)
