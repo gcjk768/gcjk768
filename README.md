@@ -4,6 +4,7 @@
 
 AWS Certified Solutions Architect – Associate · Claude Certified Architect (CCAR-P) in progress · MTech Software Engineering, NUS-ISS
 
+<a href="https://jameskoh.tailc4f63b.ts.net/"><img src="https://img.shields.io/badge/Portfolio-jameskoh.tailc4f63b.ts.net-111111?style=flat-square" alt="Portfolio site" /></a>
 <a href="https://www.linkedin.com/in/kohguanchinjames/"><img src="https://img.shields.io/badge/LinkedIn-James%20Koh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <img src="https://img.shields.io/badge/Open%20to-MLOps%20·%20Platform%20·%20DevSecOps%20roles-39D353?style=flat-square" alt="Open to MLOps, Platform and DevSecOps roles" />
 
