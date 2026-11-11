@@ -2,7 +2,7 @@
 
 **DevSecOps & MLOps engineer in Singapore.** I build the platforms that ship software and models safely: GitLab CI/CD, AWS and Kubernetes, with security and model-quality gates that run in the pipeline instead of in review.
 
-AWS Certified Solutions Architect – Associate · CKA in progress · MTech Software Engineering, NUS-ISS
+AWS Certified Solutions Architect – Associate · Claude Certified Architect (CCAR-P) in progress · MTech Software Engineering, NUS-ISS
 
 <a href="https://www.linkedin.com/in/kohguanchinjames/"><img src="https://img.shields.io/badge/LinkedIn-James%20Koh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <img src="https://img.shields.io/badge/Open%20to-MLOps%20·%20Platform%20·%20DevSecOps%20roles-39D353?style=flat-square" alt="Open to MLOps, Platform and DevSecOps roles" />
